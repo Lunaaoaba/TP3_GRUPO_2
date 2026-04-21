@@ -13,5 +13,10 @@ namespace TP3_GRUPO_2
         {
 
         }
+
+        protected void btnGuardarLocalidad_Click(object sender, EventArgs e)
+        {
+            txtLocalidad.Text = string.Empty;
+        }
     }
 }
